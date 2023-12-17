@@ -1,0 +1,46 @@
+
+.services-section {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 30px;
+ 
+}
+
+.service-icon-container {
+  flex: 2;
+}
+
+.service-icon {
+ width: 100%;
+  
+}
+
+.service-content {
+  flex: 2;
+  text-align: left;
+  padding-left: 50px; 
+}
+
+.service-title {
+  font-size: 2rem;
+  margin-bottom: 2rem;
+}
+
+.service-description {
+  font-size: 1rem;
+  color: #460101;
+}
+
+
+@media (max-width: 768px) {
+  .services-section {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .service-content {
+    padding-left: 0;
+    padding-top: 20px;
+  }
+}

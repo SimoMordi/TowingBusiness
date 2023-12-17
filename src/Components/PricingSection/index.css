@@ -1,0 +1,53 @@
+
+.pricing-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px;
+  }
+  
+  .pricing-content {
+    flex: 1;
+  }
+  
+  .pricing-content h2 {
+    font-size: 2rem;
+    color: #333;
+    margin-bottom: 2rem;
+  }
+  
+  .pricing-content p {
+    font-size: 1rem;
+    color: #666;
+    margin-bottom: 2rem;
+  }
+  
+  
+  .pricing-image {
+    flex: 1;
+    text-align: right; 
+  }
+  
+  .pricing-image img {
+    width: 720px;
+    height: 480px; 
+  }
+  
+ 
+  @media (max-width: 650px) {
+    .pricing-section {
+      flex-direction: column;
+      text-align: center;
+    }
+  
+    .pricing-image {
+      order: -1; 
+      text-align: center; 
+      margin-bottom: 20px;
+    }
+  
+    .pricing-content {
+      order: 1;
+    }
+  }
+  

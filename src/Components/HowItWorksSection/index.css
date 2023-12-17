@@ -1,0 +1,59 @@
+
+.how-it-works-section {
+  text-align: center;
+  padding: 50px 20px;
+ 
+}
+
+.section-title {
+  margin-bottom: 60px;
+  font-size: 2rem;
+}
+
+.steps-container {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.step {
+  width: 30%;
+  position: relative; 
+}
+.one {
+  color: #bbdc37;
+}
+.two {
+  color: #4908a3;
+}
+.three {
+  color: #14d431;
+}
+
+.step-number {
+  
+  font-size: 3rem;
+  font-weight: bold;
+  margin-bottom: 0;
+}
+
+.step-title {
+
+  margin-bottom: 15px;
+  font-size: 1.25rem;
+}
+
+
+@media (max-width: 650px) {
+  .steps-container {
+    flex-direction: column;
+  }
+
+  .step {
+    width: 100%;
+  }
+
+  .step-number {
+    font-size: 2rem;
+  }
+}

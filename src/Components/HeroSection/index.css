@@ -1,0 +1,77 @@
+
+.hero-section { 
+    padding: 50px; 
+  }
+  
+  .hero-content {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+  }
+  
+  .hero-title {
+    font-size: 2rem;
+    color: #000;
+  }
+  
+  .call-action {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #000;
+  }
+  
+  .service-options {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 20px;
+  }
+  
+  .service-option {
+   
+    padding: 20px;
+    border-radius: 12px;
+    
+  }
+  
+  .service-option h2 {
+    color: #0740dd;
+    margin-bottom: 10px;
+  }
+  
+  .service-option p {
+    margin-bottom: 20px;
+  }
+  
+  .service-option button {
+    background-color: #0c96cd;
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 8px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .service-option button:hover {
+    background-color: #26b6eb; 
+  }
+  
+  @media (max-width: 630px) {
+    .hero-content {
+      flex-direction: column;
+    }
+
+  
+    .call-action {
+      order: -1;  
+    }
+  
+    .service-options {
+      flex-direction: column;
+    }
+  
+    .service-option:not(:last-child) {
+      margin-bottom: 20px;
+    }
+  }
+  

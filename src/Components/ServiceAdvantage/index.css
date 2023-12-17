@@ -1,0 +1,36 @@
+
+.service-advantage-section {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 50px;
+  gap: 100px
+  ;
+}
+
+.service-advantage-image img {
+  width: 100%; 
+  height: auto;
+}
+
+.service-advantage-content h2 {
+  font-size: 2rem;
+  color: #333;
+  margin-bottom: 2rem;
+}
+
+.service-advantage-content p {
+  font-size: 1rem;
+  color: #390202;
+}
+
+@media (max-width: 650px) {
+  .service-advantage-section {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .service-advantage-image {
+    margin-bottom: 20px;
+  }
+}

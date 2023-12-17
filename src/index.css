@@ -1,0 +1,17 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+}
+ button {
+  background-color: #0c96cd;
+  color: #ffffff;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 8px;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #26b6eb; 
+}
