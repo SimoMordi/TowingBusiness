@@ -5,7 +5,7 @@ const HeroSection = () => (
         <div className="hero-content">
             <h1 className="hero-title">Roadside Assistance, Simplified</h1>
             <div className="call-action">
-                <span>Call Us: 425 393 1084</span>
+                <span>Call Us: 425 200 9200</span>
             </div>
         </div>
         <div className="service-options">

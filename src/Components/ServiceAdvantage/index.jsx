@@ -7,7 +7,7 @@ const ServiceAdvantage = () => {
   return (
     <div className="service-advantage-section">
       <div className="service-advantage-image">
-        <img src={ClockImage} alt="Clock representing quick ETA" />
+        <img src="https://www.svgrepo.com/show/192586/clock.svg" alt="Clock representing quick ETA" />
       </div>
       <div className="service-advantage-content">
         <h2>30-45 minute ETAs. 24/7 service.</h2>
